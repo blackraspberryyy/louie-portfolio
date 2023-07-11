@@ -1,7 +1,7 @@
 import vuetify from "vite-plugin-vuetify";
 
 // PWA Config
-const title = "Louie Gonzales | QA";
+const title = "Louie Gonzales";
 const shortTitle = "Louie Gonzales Portfolio";
 const description =
   "Portfolio of Louie Gonzales where she showcases her skills and work experiences in the field of Software Industry.";
@@ -27,8 +27,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Vuetify 3 + Nuxt 3 Starter",
-      titleTemplate: "%s | Vuetify 3 + Nuxt 3 Starter",
+      title: title,
+      titleTemplate: "%s | Software Quality Assurance",
       link: [
         { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poiret+One&display=swap" },
         { rel: "preconnect", href: "https://fonts.gstatic.com" },
