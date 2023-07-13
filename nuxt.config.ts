@@ -26,6 +26,8 @@ export default defineNuxtConfig({
   ],
 
   app: {
+    // for github pages
+    baseURL: '/louie-portfolio/', // baseURL: '/<repository>/'
     head: {
       title: title,
       titleTemplate: "%s | Software Quality Assurance",
