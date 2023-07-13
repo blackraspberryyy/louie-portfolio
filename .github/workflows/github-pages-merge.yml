@@ -6,7 +6,7 @@ name: Deploy to Github Sub-Pages of blackraspberryyy.github.io
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build_and_deploy:
