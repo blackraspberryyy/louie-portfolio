@@ -32,32 +32,17 @@
 <script setup>
 import { ref } from 'vue';
 
-// const contactNo = ref("+639219964993");
-// const email = ref("gonzales.louieb@gmail.com");
-// const links = ref([
-//   {
-//     name: 'LinkedIn',
-//     href: 'https://www.linkedin.com/in/louiebgonzales/',
-//     icon: 'mdi-linkedin',
-//   },
-//   {
-//     name: 'Facebook',
-//     href: 'https://www.facebook.com/louiebgonza1es',
-//     icon: 'mdi-facebook',
-//   },
-// ]);
-
-const contactNo = ref("+639847561829");
-const email = ref("dummy.email@gmail.com");
+const contactNo = ref("+639219964993");
+const email = ref("gonzales.louieb@gmail.com");
 const links = ref([
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/dummy-act/',
+    href: 'https://www.linkedin.com/in/louiebgonzales/',
     icon: 'mdi-linkedin',
   },
   {
     name: 'Facebook',
-    href: 'https://www.facebook.com/dummy-act',
+    href: 'https://www.facebook.com/louiebgonza1es',
     icon: 'mdi-facebook',
   },
 ]);
